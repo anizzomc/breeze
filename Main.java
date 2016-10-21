@@ -21,7 +21,7 @@ public class Main {
 		array[5] = new B(names[3]).convertToB();
 
 		System.out.println();
-
+		//No me acuerdo para este archivo
 		for (final A each : array) {
 			for (final String name : names) {
 				System.out.println(each.equals(new B(name)));
